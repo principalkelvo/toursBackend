@@ -25,12 +25,12 @@ SECRET_KEY = 'django-insecure-mlmo8h$1g%)r#awz6cy$7)iz*#4nz!h&+i^fq!qhz&6xlpw^9g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['traveltourskenya.herokuapp.com',
+                 'www.traveltourskenya.herokuapp.com', ]
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:8080',
-    'traveltourskenya.herokuapp.com',
-    'www.traveltourskenya.herokuapp.com',
+
 ]
 
 
