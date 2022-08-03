@@ -27,8 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-CORS_ALLOWED_ORIGINS=[
+CORS_ALLOWED_ORIGINS = [
     'http://localhost:8080',
+    'traveltourskenya.herokuapp.com',
+    'www.traveltourskenya.herokuapp.com',
 ]
 
 
@@ -136,7 +138,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_URL = '/static/'
-MEDIA_URL ='/media/' #where to put uploaded image
-MEDIA_ROOT =BASE_DIR / 'media/'
+MEDIA_URL = '/media/'  # where to put uploaded image
+MEDIA_ROOT = BASE_DIR / 'media/'
 
 django_heroku.settings(locals())
