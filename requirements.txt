@@ -8,7 +8,7 @@ coreapi==2.3.3
 coreschema==0.0.4
 cryptography==37.0.4
 defusedxml==0.7.1
-dj-database-url==1.0.0
+dj-database-url==1.0.0 
 Django==4.0.6
 django-cors-headers==3.13.0
 django-heroku==0.3.1
