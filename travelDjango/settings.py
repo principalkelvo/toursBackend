@@ -34,7 +34,7 @@ ALLOWED_HOSTS = ['traveltourskenya.herokuapp.com',
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:8080',
-
+    "https://kenyatours.netlify.app/",
 ]
 
 
